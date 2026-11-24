@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flight menu (airport.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/airport.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "Destinations (destinationer.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/destinationer.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    }
+  ]
+}
